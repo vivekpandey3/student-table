@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
-import StudentTable from "./components/StudentTable";
-import StudentForm from "./components/StudentForm";
-import Loader from "./components/Loader";
+import StudentTable from "./components/StudentTable.jsx";
+import StudentForm from "./components/StudentForm.jsx";
+import Loader from "./components/Loader.jsx";
 import studentsData from "./data/students.json";
-
 function App() {
 
   const [students, setStudents] = useState([]);
