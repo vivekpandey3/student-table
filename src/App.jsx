@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import StudentTable from "./components/StudentTable.jsx";
-import StudentForm from "./components/StudentForm.jsx";
-import Loader from "./components/Loader.jsx";
+import StudentTable from "./Components/StudentTable.jsx";
+import StudentForm from "./Components/StudentForm.jsx";
+import Loader from "./Components/Loader.jsx";
 import studentsData from "./data/students.json";
 function App() {
 
